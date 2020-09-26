@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lina Shamoon</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    <canvas id='c' style="position: absolute;"></canvas>
+    <!-- name -->
+    <div id="firstContainer" class="container">
+        <div class="row">
+            <div class="firstCC col-sm">
+                <br>
+                <img src="assets/name.png" alt="Cinque Terre" width="600" height="400">
+            </div>
+        </div>
+    </div>
+    <!-- art -->
+    <div id="thirdContainer" class="container">
+        <div class="row">
+            <div class="thirdCC col-sm">
+                <br>
+                <h1 style="margin-left: 45px;">ART & MIRRORS</h1>
+                <div class="container">
+                    <!-- collapse -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h2>Abstract Paintings</h2>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- gallery -->
+                                    <!-- gallery -->
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/aight.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/aight.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/cake.png">
+                                            <img class="accordion-img" src="assets/imgs/abstract/cake.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/pottery.png">
+                                            <img class="accordion-img" src="assets/imgs/abstract/pottery.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/thebirds.PNG">
+                                            <img class="accordion-img" src="assets/imgs/abstract/thebirds.PNG" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <!-- <div class="desc">Add a description of the image here</div> -->
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/chandelier.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/chandelier3.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/whitechandelier.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/whitechandelier.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/chandelier.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/chandelier.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/fools.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/fools.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/IMG_0825.PNG">
+                                            <img class="accordion-img" src="assets/imgs/abstract/IMG_0825.PNG" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/IMG_0854.PNG">
+                                            <img class="accordion-img" src="assets/imgs/abstract/IMG_0854.PNG" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/mhmm.JPG">
+                                            <img class="accordion-img" src="assets/imgs/abstract/mhmm.JPG" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/ok.png">
+                                            <img class="accordion-img" src="assets/imgs/abstract/ok.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/oldcpu.JPG">
+                                            <img class="accordion-img" src="assets/imgs/abstract/oldcpu.JPG" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/picasso.PNG">
+                                            <img class="accordion-img" src="assets/imgs/abstract/picasso.PNG" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/plant.png">
+                                            <img class="accordion-img" src="assets/imgs/abstract/plant.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/pop.png">
+                                            <img class="accordion-img" src="assets/imgs/abstract/pop.png" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/uhhhuh.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/uhhhuh.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/abstract/ab2.jpg">
+                                            <img class="accordion-img" src="assets/imgs/abstract/ab2.jpg" alt="Mountains" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h2>Pet Portraits</h2>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- gallery -->
+                                    <!-- gallery -->
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/1.jpg">
+                                            <img class="accordion-img" src="assets/imgs/pets/1.jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/3.jpg">
+                                            <img class="accordion-img" src="assets/imgs/pets/3.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/4.png">
+                                            <img class="accordion-img" src="assets/imgs/pets/4.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/8.jpg">
+                                            <img class="accordion-img" src="assets/imgs/pets/8.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/5.jpg">
+                                            <img class="accordion-img" src="assets/imgs/pets/5.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/6.jpg">
+                                            <img class="accordion-img" src="assets/imgs/pets/6.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/7.jpg">
+                                            <img class="accordion-img" src="assets/imgs/pets/7.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/pets/2.png">
+                                            <img class="accordion-img" src="assets/imgs/pets/2.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <h2>Portraits</h2>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- gallery -->
+                                    <!-- gallery -->
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/1.jpeg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/1.jpeg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/2.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/2.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/4.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/4.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/5.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/5.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/6.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/6.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/8.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/8.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/3.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/3.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/7.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/7.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/9.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/9.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/10.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/10.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/11.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/11.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/12.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/12.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/13.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/13.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/14.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/14.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/15.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/15.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/16.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/16.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/17.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/17.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/18.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/18.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/19.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/19.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/20.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/20.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/21.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/21.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/22.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/22.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/23.png">
+                                            <img class="accordion-img" src="assets/imgs/portraits/23.png" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/portraits/24.jpg">
+                                            <img class="accordion-img" src="assets/imgs/portraits/24.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <h2>Landscapes</h2>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- gallery -->
+                                    <!-- gallery -->
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/1.jpg">
+                                            <img class="accordion-img" src="assets/imgs/landscape/1.jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/2.jpg">
+                                            <img class="accordion-img" src="assets/imgs/landscape/2.jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/3.png">
+                                            <img class="accordion-img" src="assets/imgs/landscape/3.png" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/4.png">
+                                            <img class="accordion-img" src="assets/imgs/landscape/4.png" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/5.png">
+                                            <img class="accordion-img" src="assets/imgs/landscape/5.png" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/6.jpg">
+                                            <img class="accordion-img" src="assets/imgs/landscape/6.jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/7.png">
+                                            <img class="accordion-img" src="assets/imgs/landscape/7.png" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/8.png">
+                                            <img class="accordion-img" src="assets/imgs/landscape/8.png" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/9.png">
+                                            <img class="accordion-img" src="assets/imgs/landscape/9.png" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/landscape/10.jpg">
+                                            <img class="accordion-img" src="assets/imgs/landscape/10.jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <h2>Mirrors</h2>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <!-- gallery -->
+                                    <!-- gallery -->
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/1.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/1.jpg" alt="Cinque Terre" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/3.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/3.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/4.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/4.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/8.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/8.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/5.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/5.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/6.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/6.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/7.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/7.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                    <div class="gallery">
+                                        <a target="_blank" href="assets/imgs/mirrors/8.jpg">
+                                            <img class="accordion-img" src="assets/imgs/mirrors/8.jpg" alt="Forest" width="600" height="400">
+                                        </a>
+                                        <!-- <div class="desc">Add a description of the image here</div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- shop / youtube / stickers -->
+    <div id="secondContainer" class="container">
+        <div class="row">
+            <div class="secondCC col-2-1 col-sm">
+                <a class="link" href="https://www.etsy.com/shop/AbstractArtByLina">
+                    <br>
+                    <h1>SHOP</h1>
+                    <br>
+                    <br>
+                    <i class="fas fa-3x fa-shopping-bag"></i>
+                </a>
+            </div>
+            <div class="secondCC col-2-2 col-sm">
+                <a class="link" href="https://www.youtube.com/channel/UCtx4XuC8QStNxFV6xfaK8eQ">
+                    <br>
+                    <h1>YOUTUBE</h1>
+                    <br>
+                    <br>
+                    <img src="assets/imgs/thumb.png" style="width: 70%; margin-top: -41px; transform: rotate(-3deg);" alt="Red Bubble Stickers">
+                </a>
+            </div>
+            <div class="secondCC col-2-3 col-sm">
+                <a class="link" href="https://www.redbubble.com/people/littlepalmtree/shop?asc=u&ref=account-nav-dropdown">
+                    <br>
+                    <h1>STICKERS</h1>
+                    <br>
+                    <img src="assets/imgs/beach/mtn.png" style="width:35%; transform: rotate(-20deg);" alt="Red Bubble Stickers">
+                    <img src="assets/imgs/beach/beach1.png" style="width:35%; transform: rotate(20deg);" alt="Red Bubble Stickers">
+                    <img src="assets/imgs/beach/mtn2.png" style="width:35%; transform: rotate(10deg);margin-top: -120px;" alt="Red Bubble Stickers">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="fifthContainer" class="container">
+        <div class="row">
+            <div class="fifthCC col-sm">
+                <img class="paintingimg" src="assets/imgs/paintingpics/1.jpg" alt="Forest" width="600" height="400">
+            </div>
+            <div class="fifthCC col-sm">
+                <img class="paintingimg" src="assets/imgs/paintingpics/2.png" alt="Forest" width="600" height="400">
+            </div>
+            <div class="fifthCC col-sm">
+                <img class="paintingimg" src="assets/imgs/paintingpics/3.png" alt="Forest" width="600" height="400">
+            </div>
+            <div class="fifthCC col-sm">
+                <img class="paintingimg" src="assets/imgs/paintingpics/4.png" alt="Forest" width="600" height="400">
+            </div>
+            <div class="fifthCC col-sm">
+                <img class="paintingimg" src="assets/imgs/paintingpics/5.png" alt="Forest" width="600" height="400">
+            </div>
+            <div class="fifthCC col-sm">
+                <img class="paintingimg" src="assets/imgs/paintingpics/6.png" alt="Forest" width="600" height="400">
+            </div>
+        </div>
+    </div>
+    <div id="fourthContainer" class="container">
+        <div class="row">
+            <div class="col-sm">
+                <i class="fab fa-3x fa-instagram"></i>
+                <img src="assets/imgs/insta.png" style="width: 15%; width: 45%; margin-top: -23px;">
+            </div>
+            <div class="col-sm">
+                <img src="assets/imgs/me.png" style="width: 15%; float: right;">
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
