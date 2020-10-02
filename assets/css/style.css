@@ -1,4 +1,7 @@
-body { background-color: #FFFFFF; margin:0px;}
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+}
 
 .col-title {}
 
@@ -7,7 +10,7 @@ body { background-color: #FFFFFF; margin:0px;}
     border-radius: 10px;
 }
 
-#myBtn{
+#myBtn {
     font-family: 'Vampiro One', cursive;
 }
 
@@ -32,11 +35,11 @@ a {
 .col-2-2,
 .col-2-3 {
     background: darkseagreen;
-    height: 55vh;
+    height: 65vh;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-    margin: 5px;
+    margin: 10px;
 }
 
 #thirdContainer {
@@ -142,6 +145,6 @@ div.gallery img:hover {
     background-color: #555;
 }
 
-.paintingimg{
+.paintingimg {
     border-radius: 10px;
 }
